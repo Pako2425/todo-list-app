@@ -4,10 +4,11 @@ import { AppComponent } from './app.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
 import { TodoService } from './services/todo.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, AddTaskComponent, TodoListComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FormsModule],
   providers: [TodoService],
   bootstrap: [AppComponent]
 })
