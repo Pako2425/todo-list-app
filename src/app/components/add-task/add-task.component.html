@@ -1,2 +1,6 @@
-<input [(ngModel)]="newTask" placeholder="Dodaj zadanie" />
-<button (click)="addNewTask()">Dodaj</button>
+<div class="task">
+    <div class="task-input">
+        <input class="form-control" [(ngModel)]="newTask" placeholder="Dodaj zadanie" />
+    </div>
+    <button class="btn btn-primary" (click)="addNewTask()">Dodaj</button>
+</div>
