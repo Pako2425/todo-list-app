@@ -23,5 +23,4 @@ export class TodoListComponent {
     this.todoService.removeTask(taskIndex);
     this.tasks = this.todoService.getTasks();
   }
-
 }
